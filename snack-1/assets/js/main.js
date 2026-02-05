@@ -1,15 +1,12 @@
-// prompt('Inserisci un numero');
-// prompt('Inserisci un altro numero');
+let numeroMaggiore;
 
-let numeromaggiore;
+const primoNumero = Number(prompt('Inserisci un numero'));
+const secondoNumero = Number(prompt('Inserisci un altro numero'));
 
-const primonumero = Number(prompt('Inserisci un numero'));
-const secondonumero = Number(prompt('Inserisci un altro numero'));
-
-if (primonumero > secondonumero) {
-    numeromaggiore = primonumero;
+if (primoNumero > secondoNumero) {
+    numeroMaggiore = primoNumero;
 } else {
-    numeromaggiore = secondonumero;
+    numeroMaggiore = secondoNumero;
 }
 
-console.log(numeromaggiore);
+console.log(numeroMaggiore);
