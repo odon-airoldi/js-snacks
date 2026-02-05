@@ -8,7 +8,7 @@ let numeriDispari = []
 for (i = 0; i < 6; i++ ) {
 
     const numero = Number(prompt('inserisci un numero'));
-    if (numero % 2 == 0) {
+    if (numero % 2 !== 0) {
         numeriDispari.push(numero);
     }
 
