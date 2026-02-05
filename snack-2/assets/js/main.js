@@ -5,12 +5,14 @@
 let Parole;
 
 const primaParola = prompt('Inserisci una parola');
-const secondaParola = prompt('Inserisci una parola');
+const secondaParola = prompt('Inserisci un\'altra parola');
 
 if (primaParola.length > secondaParola.length) {
     Parole = `${secondaParola} ${primaParola}`;
 } else if (secondaParola.length > primaParola.length) {
     Parole = `${primaParola} ${secondaParola}`;
+} else {
+    Parole = 'Le parole hanno la stezza lunghezza';
 }
 
 console.log(Parole);
