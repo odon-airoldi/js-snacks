@@ -16,3 +16,5 @@ if (primaParola.length > secondaParola.length) {
 }
 
 console.log(Parole);
+
+
